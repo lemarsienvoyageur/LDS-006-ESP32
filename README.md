@@ -30,7 +30,8 @@ LDS006 lidar(RXD2,TXD2,TRUE)
 void setup(){
 
 Serial.begin(115200);
-
+delay(250);
+  lidar.start();
 }
 
 void loop(){
@@ -39,3 +40,21 @@ lidar.reading();
 lidar.writing();
 
 }
+
+  In Serialmonitor return:
+  
+  Speed: 300
+  Angle: 54
+  Distance: 243
+  ------
+  The command LDS006.start() starts the lidar and sending data
+  
+  The command LDS006.pause() pauses the lidar, with the start() command the lidar can restart
+  
+  The distance data can be used with LDS006.distance()
+  
+  The angle data can be used with LDS006.angle()
+  
+  The speed data can be used with LDS006.speed()
+  
+  The data is unsigned
