@@ -1,0 +1,11 @@
+#######################################
+# Data types (KEYWORD1)
+#######################################
+reading	KEYWORD1
+writing	KEYWORD1
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+speed KEYWORD2
+distance KEYWORD2
+angle KEYWORD2
