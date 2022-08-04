@@ -13,6 +13,29 @@ The "distance" variable is entered in centimeters from 2 to 6000.
 
 The "speed" variable is recovered in order to verify the reliability of the distance data.
 
-These three variables are written to the serial monitor as they comming in the buffer.
+These three variables are written to the serial monitor as they comming in the buffer if the boolean in LDS006(int RXpin, int TXpin, boolean Serial) is true
 
 The lidar work in Serial 115200 8N2 3.3V.
+
+Example
+
+#include <LDS006ESP32>
+
+#define TXD2 17
+
+#define RXD2 16
+
+LDS006 lidar(RXD2,TXD2,TRUE)
+
+void setup(){
+
+Serial.begin(115200);
+
+}
+
+void loop(){
+
+lidar.reading();
+lidar.writing();
+
+}
