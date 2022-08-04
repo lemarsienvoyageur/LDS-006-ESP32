@@ -17,7 +17,7 @@ These three variables are written to the serial monitor as they comming in the b
 
 The lidar work in Serial 115200 8N2 3.3V.
 
-Example
+Example:
 
 #include <LDS006ESP32.h>
 
