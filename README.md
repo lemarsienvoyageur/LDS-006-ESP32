@@ -17,6 +17,7 @@ These three variables are written to the serial monitor as they comming in the b
 
 The lidar work in Serial 115200 8N2 3.3V.
 
+
 Example:
 
 #include <LDS006ESP32.h>
@@ -44,6 +45,7 @@ lidar.writing();
 
 }
 
+
   In Serialmonitor return:
   
   Speed: 300
@@ -51,6 +53,7 @@ lidar.writing();
   Angle: 54
   
   Distance: 243
+  
   
   Command:
   ------
