@@ -1,3 +1,8 @@
+/*
+Entry "s" on serial monitor for start lidar and write the data.
+Entry "p" on serial monitor for stop lidar and stop writing data.
+*/
+
 #include <LDS006ESP32.h>
 
 LDS006 lidar(16, 17, false);
