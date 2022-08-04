@@ -35,6 +35,7 @@ Serial.begin(115200);
 delay(250);
 
 lidar.start();
+
 }
 
 void loop(){
