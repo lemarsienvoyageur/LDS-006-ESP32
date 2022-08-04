@@ -66,10 +66,9 @@ void LDS006::writing(){
           dist = receivedBytes[3]+(receivedBytes[4]*256);
 
 	if (_seri == true){
-          Serial.print("Vitesse: ");Serial.println(vit);
+          Serial.print("Speed: ");Serial.println(vit);
           Serial.print(" Angle: "); Serial.println(an);
           Serial.print(" Distance: ");Serial.println(dist);
-          Serial.print(" Reflect: ");Serial.println(refl);
       Serial.println();}
         }
         newData = false;
