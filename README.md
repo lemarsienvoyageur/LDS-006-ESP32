@@ -19,7 +19,7 @@ The lidar work in Serial 115200 8N2 3.3V.
 
 Example
 
-#include <LDS006ESP32>
+#include <LDS006ESP32.h>
 
 #define TXD2 17
 
@@ -30,13 +30,16 @@ LDS006 lidar(RXD2,TXD2,TRUE)
 void setup(){
 
 Serial.begin(115200);
+
 delay(250);
-  lidar.start();
+
+lidar.start();
 }
 
 void loop(){
 
 lidar.reading();
+
 lidar.writing();
 
 }
@@ -44,8 +47,12 @@ lidar.writing();
   In Serialmonitor return:
   
   Speed: 300
+  
   Angle: 54
+  
   Distance: 243
+  
+  Command:
   ------
   The command LDS006.start() starts the lidar and sending data
   
