@@ -13,20 +13,6 @@ The "distance" variable is entered in centimeters from 2 to 6000.
 
 The "speed" variable is recovered in order to verify the reliability of the distance data.
 
-These two variables are written to the serial monitor as they comming in the buffer.
-
-A table of 2 lines and 90 columns is created to store the variables.
-
-angle |0 |4 |8 |12 |16 |20 |...|360 |
-
-distance |8 |8.2|14 |28 |54 |98 |...|5000|
-
-Two commands are available to drive the lidar "startlds$" and "stoplds$"
-
-In the code there is the possibility of controlling the lidar with the serial monitor simply by entering "s" for start and "p" for pause.
-
-When it is written "s" the code sends the command "startlds$".
-
-when it is written "p" the code sends the command "stoplds$".
+These three variables are written to the serial monitor as they comming in the buffer.
 
 The lidar work in Serial 115200 8N2 3.3V.
