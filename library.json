@@ -6,12 +6,12 @@
   "repository":
   {
     "type": "git",
-    "url": "https://github.com/lemarsienvoyageur/LDS-006-ESP32"
+    "url": "https://github.com/lemarsienvoyageur/LDS006ESP32"
   },
   "authors":
   {
     "name": "lemarsienvoyageur",
-    "url": " "
+    "url": "https://github.com/lemarsienvoyageur"
   },
   "frameworks": "arduino",
   "platforms": "ESP32"  
