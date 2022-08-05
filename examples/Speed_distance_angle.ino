@@ -7,7 +7,7 @@ Simply write speed, angle and distance on serial monitor
 #define TXD2 17
 #define RXD2 16
 
-LDS006 lidar(RXD2,TXD2,TRUE)
+LDS006 lidar(RXD2,TXD2,TRUE);
 
 void setup(){
 
