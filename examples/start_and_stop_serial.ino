@@ -4,7 +4,7 @@ Entry "p" on serial monitor for stop lidar and stop writing data.
 */
 #include <LDS006ESP32.h>
 
-LDS006 lidar(16, 17, True);
+LDS006 lidar(16, 17, true);
 void setup() {
 
 Serial.begin(115200);
