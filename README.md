@@ -19,7 +19,7 @@ The lidar work in Serial 115200 8N2 3.3V.
 
 
 Example:
-
+------
 #include <LDS006ESP32.h>
 
 #define TXD2 17
